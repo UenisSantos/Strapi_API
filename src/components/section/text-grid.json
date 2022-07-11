@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_text_grids",
+  "info": {
+    "displayName": "text_grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imageGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid"
+    }
+  }
+}

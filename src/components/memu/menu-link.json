@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_memu_menu_links",
+  "info": {
+    "displayName": "menu_link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_link": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "image_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "menuLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "memu.links-menu"
+    }
+  }
+}

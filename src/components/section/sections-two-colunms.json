@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_section_sections_two_colunms",
+  "info": {
+    "displayName": "sections_two_colunms"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descpition": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section-metadata"
+    }
+  }
+}

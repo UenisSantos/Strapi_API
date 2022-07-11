@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_memu_links_menus",
+  "info": {
+    "displayName": "linksMenu"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}
